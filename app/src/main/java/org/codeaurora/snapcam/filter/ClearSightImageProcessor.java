@@ -124,7 +124,7 @@ public class ClearSightImageProcessor {
                     "org.codeaurora.qcamera3.dualcam_calib_meta_data.dualcam_calib_meta_data_blob",
                     byte[].class);
     private CaptureResult.Key<byte[]> SCALE_CROP_ROTATION_REPROCESS_BLOB =
-            new CaptureResult.Key<byte[]>(
+            new CaptureResult.Key<>(
                     "org.codeaurora.qcamera3.hal_private_data.reprocess_data_blob",
                     byte[].class);
 
